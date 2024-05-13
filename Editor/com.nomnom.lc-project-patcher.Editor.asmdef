@@ -1,0 +1,21 @@
+{
+    "name": "com.nomnom.lc-project-patcher.Editor",
+    "rootNamespace": "Nomnom.LethalCompanyProjectPatcher.Editor",
+    "references": [
+        "GUID:419b14fad59f488e9e1a3c798cff9f89",
+        "GUID:d622a80a03e90ec48afe2a9c4bacce98",
+        "GUID:e735841ccbacfd64692ba3490eb4d103",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

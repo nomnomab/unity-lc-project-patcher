@@ -1,0 +1,1319 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f29d200711b44929311442db80f4c89, type: 3}
+  m_Name: LethalCompany_UnityProjectPatcherSettings
+  m_EditorClassIdentifier: 
+  _gameName: Lethal Company
+  _gameVersion: 2022.3.9.15351836
+  _pipelineType: 2
+  _dllsToCopy:
+  - key: 
+    sourceName: AmazingAssets.TerrainToMesh.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: ClientNetworkTransform.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: DissonanceVoip.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: Facepunch Transport for Netcode for GameObjects.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: Facepunch.Steamworks.Win64.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: Newtonsoft.Json.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: ../Plugins/x86_64/AudioPluginDissonance.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: ../Plugins/x86_64/discord_game_sdk.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: ../Plugins/x86_64/opus.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: ../Plugins/x86_64/phonon_fmod.dll
+    outputPath: 
+    exclude: 0
+  - key: 
+    sourceName: ../Plugins/x86_64/steam_api64.dll
+    outputPath: Hidden~
+    exclude: 0
+  - key: 
+    sourceName: ../Plugins/x86_64/steam_api64.dll
+    outputPath: Hidden~
+    exclude: 0
+  - key: 
+    sourceName: Assembly-CSharp-firstpass.dll
+    outputPath: 
+    exclude: 0
+  _scriptDllFoldersToCopy: []
+  _ignoredDllPrefixes:
+  - System.
+  - UnityEngine.
+  - Unity.Services.
+  _exactPackagesFound:
+  - name: com.unity.ai.navigation
+    version: 1.1.5
+    dependencies:
+    - name: com.unity.modules.ai
+      version: 1.0.0
+    matchType: 0
+  - name: com.unity.animation.rigging
+    version: 1.2.1
+    dependencies:
+    - name: com.unity.burst
+      version: 1.4.1
+    - name: com.unity.test-framework
+      version: 1.1.24
+    matchType: 0
+  - name: com.unity.collections
+    version: 1.2.4
+    dependencies:
+    - name: com.unity.burst
+      version: 1.8.8
+    - name: com.unity.modules.unityanalytics
+      version: 1.0.0
+    - name: com.unity.nuget.mono-cecil
+      version: 1.11.4
+    - name: com.unity.test-framework.performance
+      version: 3.0.2
+    matchType: 0
+  - name: com.unity.inputsystem
+    version: 1.8.1
+    dependencies:
+    - name: com.unity.modules.uielements
+      version: 1.0.0
+    matchType: 0
+  - name: com.unity.netcode.gameobjects
+    version: 1.5.2
+    dependencies:
+    - name: com.unity.nuget.mono-cecil
+      version: 1.10.1
+    - name: com.unity.transport
+      version: 1.4.0
+    matchType: 0
+  - name: com.unity.probuilder
+    version: 5.1.1
+    dependencies:
+    - name: com.unity.settings-manager
+      version: 1.0.3
+    - name: com.unity.modules.physics
+      version: 1.0.0
+    - name: com.unity.modules.imgui
+      version: 1.0.0
+    matchType: 0
+  - name: com.unity.visualeffectgraph
+    version: 14.0.8
+    dependencies:
+    - name: com.unity.shadergraph
+      version: 14.0.8
+    - name: com.unity.render-pipelines.core
+      version: 14.0.8
+    matchType: 0
+  _possiblePackagesFound:
+  - name: com.unity.2d.animation
+    version: 9.1.0
+    dependencies:
+    - name: com.unity.2d.common
+      version: 8.0.2
+    - name: com.unity.2d.sprite
+      version: 1.0.0
+    - name: com.unity.collections
+      version: 1.1.0
+    - name: com.unity.modules.animation
+      version: 1.0.0
+    - name: com.unity.modules.uielements
+      version: 1.0.0
+    matchType: 1
+  - name: com.unity.ads
+    version: 4.4.2
+    dependencies:
+    - name: com.unity.ugui
+      version: 1.0.0
+    matchType: 1
+  - name: com.unity.cinemachine
+    version: 3.0.1
+    dependencies:
+    - name: com.unity.splines
+      version: 2.0.0
+    - name: com.unity.test-framework
+      version: 1.1.33
+    matchType: 1
+  - name: com.unity.collab-proxy
+    version: 2.3.1
+    dependencies: []
+    matchType: 1
+  - name: com.unity.entities
+    version: 1.0.16
+    dependencies:
+    - name: com.unity.burst
+      version: 1.8.8
+    - name: com.unity.serialization
+      version: 3.1.1
+    - name: com.unity.collections
+      version: 2.1.4
+    - name: com.unity.mathematics
+      version: 1.2.6
+    - name: com.unity.modules.assetbundle
+      version: 1.0.0
+    - name: com.unity.modules.audio
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.test-framework.performance
+      version: 3.0.2
+    - name: com.unity.nuget.mono-cecil
+      version: 1.11.4
+    - name: com.unity.scriptablebuildpipeline
+      version: 1.20.2
+    - name: com.unity.profiling.core
+      version: 1.0.2
+    matchType: 1
+  - name: com.unity.ide.rider
+    version: 3.0.28
+    dependencies:
+    - name: com.unity.ext.nunit
+      version: 1.0.6
+    matchType: 1
+  - name: com.unity.ide.vscode
+    version: 1.2.5
+    dependencies: []
+    matchType: 1
+  - name: com.unity.localization
+    version: 1.5.1
+    dependencies:
+    - name: com.unity.addressables
+      version: 1.21.9
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.0.2
+    matchType: 1
+  - name: com.unity.logging
+    version: 1.0.16
+    dependencies:
+    - name: com.unity.burst
+      version: 1.8.8
+    - name: com.unity.collections
+      version: 2.1.4
+    matchType: 1
+  - name: com.unity.physics
+    version: 1.0.16
+    dependencies:
+    - name: com.unity.burst
+      version: 1.8.8
+    - name: com.unity.collections
+      version: 2.1.4
+    - name: com.unity.entities
+      version: 1.0.16
+    - name: com.unity.mathematics
+      version: 1.2.6
+    - name: com.unity.modules.imgui
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    matchType: 1
+  - name: com.unity.polybrush
+    version: 1.1.6
+    dependencies:
+    - name: com.unity.settings-manager
+      version: 2.0.1
+    matchType: 1
+  - name: com.unity.purchasing
+    version: 4.11.0
+    dependencies:
+    - name: com.unity.ugui
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    - name: com.unity.modules.androidjni
+      version: 1.0.0
+    - name: com.unity.services.core
+      version: 1.8.2
+    matchType: 1
+  - name: com.unity.recorder
+    version: 4.0.2
+    dependencies:
+    - name: com.unity.timeline
+      version: 1.0.0
+    matchType: 1
+  - name: com.unity.sequences
+    version: 2.1.1
+    dependencies:
+    - name: com.unity.timeline
+      version: 1.6.3
+    - name: com.unity.recorder
+      version: 2.5.5
+    - name: com.unity.settings-manager
+      version: 1.0.3
+    - name: com.unity.ugui
+      version: 1.0.0
+    matchType: 1
+  - name: com.unity.serialization
+    version: 3.1.1
+    dependencies:
+    - name: com.unity.collections
+      version: 2.1.4
+    - name: com.unity.burst
+      version: 1.7.2
+    matchType: 1
+  - name: com.unity.services.analytics
+    version: 5.1.0
+    dependencies:
+    - name: com.unity.ugui
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    - name: com.unity.services.core
+      version: 1.10.1
+    matchType: 1
+  - name: com.unity.services.cloudcode
+    version: 2.6.1
+    dependencies:
+    - name: com.unity.services.authentication
+      version: 3.1.0
+    - name: com.unity.services.core
+      version: 1.12.0
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.0.2
+    - name: com.unity.services.wire
+      version: 1.1.5
+    matchType: 1
+  - name: com.unity.services.cloudsave
+    version: 3.1.1
+    dependencies:
+    - name: com.unity.services.authentication
+      version: 2.6.1
+    - name: com.unity.services.core
+      version: 1.4.3
+    matchType: 1
+  - name: com.unity.services.economy
+    version: 3.3.0
+    dependencies:
+    - name: com.unity.services.authentication
+      version: 3.1.0
+    - name: com.unity.services.core
+      version: 1.12.0
+    matchType: 1
+  - name: com.unity.services.levelplay
+    version: 1.0.0
+    dependencies: []
+    matchType: 1
+  - name: com.unity.services.lobby
+    version: 1.2.0
+    dependencies:
+    - name: com.unity.services.core
+      version: 1.8.2
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestassetbundle
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestaudio
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequesttexture
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestwww
+      version: 1.0.0
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.0.2
+    - name: com.unity.services.authentication
+      version: 2.1.1
+    - name: com.unity.services.wire
+      version: 1.1.8
+    matchType: 1
+  - name: com.unity.services.multiplay
+    version: 1.1.1
+    dependencies:
+    - name: com.unity.services.core
+      version: 1.12.0
+    - name: com.unity.services.wire
+      version: 1.1.4
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestassetbundle
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestaudio
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequesttexture
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestwww
+      version: 1.0.0
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.0.2
+    matchType: 1
+  - name: com.unity.services.ugc
+    version: 3.0.0
+    dependencies:
+    - name: com.unity.services.core
+      version: 1.9.0
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.2.1
+    - name: com.unity.services.authentication
+      version: 2.5.0
+    matchType: 1
+  - name: com.unity.services.vivox
+    version: 16.2.0
+    dependencies:
+    - name: com.unity.settings-manager
+      version: 1.0.3
+    - name: com.unity.services.core
+      version: 1.4.0
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.0.2
+    - name: com.unity.modules.audio
+      version: 1.0.0
+    matchType: 1
+  - name: com.unity.splines
+    version: 2.5.2
+    dependencies:
+    - name: com.unity.settings-manager
+      version: 1.0.3
+    - name: com.unity.mathematics
+      version: 1.2.1
+    - name: com.unity.ugui
+      version: 1.0.0
+    matchType: 1
+  - name: com.unity.sysroot
+    version: 2.0.7
+    dependencies: []
+    matchType: 1
+  - name: com.unity.ugui
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.ui
+      version: 1.0.0
+    - name: com.unity.modules.imgui
+      version: 1.0.0
+    matchType: 1
+  - name: com.unity.xr.arcore
+    version: 5.1.3
+    dependencies:
+    - name: com.unity.xr.arfoundation
+      version: 5.1.3
+    - name: com.unity.xr.core-utils
+      version: 2.1.0
+    - name: com.unity.xr.management
+      version: 4.0.1
+    - name: com.unity.modules.androidjni
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    matchType: 1
+  - name: com.unity.xr.arkit
+    version: 5.1.3
+    dependencies:
+    - name: com.unity.editorcoroutines
+      version: 1.0.0
+    - name: com.unity.xr.arfoundation
+      version: 5.1.3
+    - name: com.unity.xr.core-utils
+      version: 2.1.0
+    - name: com.unity.xr.management
+      version: 4.0.1
+    matchType: 1
+  _improbablePackagesFound:
+  - name: com.havok.physics
+    version: 1.0.16
+    dependencies:
+    - name: com.unity.burst
+      version: 1.8.8
+    - name: com.unity.collections
+      version: 2.1.4
+    - name: com.unity.entities
+      version: 1.0.16
+    - name: com.unity.mathematics
+      version: 1.2.6
+    - name: com.unity.physics
+      version: 1.0.16
+    matchType: 2
+  - name: com.unity.2d.aseprite
+    version: 1.1.2
+    dependencies:
+    - name: com.unity.2d.sprite
+      version: 1.0.0
+    - name: com.unity.2d.common
+      version: 6.0.6
+    - name: com.unity.mathematics
+      version: 1.2.6
+    - name: com.unity.modules.animation
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.2d.pixel-perfect
+    version: 5.0.3
+    dependencies: []
+    matchType: 2
+  - name: com.unity.2d.psdimporter
+    version: 8.0.4
+    dependencies:
+    - name: com.unity.2d.animation
+      version: 9.1.0
+    - name: com.unity.2d.common
+      version: 8.0.2
+    - name: com.unity.2d.sprite
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.2d.spriteshape
+    version: 9.0.2
+    dependencies:
+    - name: com.unity.mathematics
+      version: 1.1.0
+    - name: com.unity.2d.common
+      version: 8.0.1
+    - name: com.unity.modules.physics2d
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.2d.tilemap
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.tilemap
+      version: 1.0.0
+    - name: com.unity.modules.uielements
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.2d.tilemap.extras
+    version: 3.1.2
+    dependencies:
+    - name: com.unity.modules.tilemap
+      version: 1.0.0
+    - name: com.unity.2d.tilemap
+      version: 1.0.0
+    - name: com.unity.ugui
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.adaptiveperformance
+    version: 5.1.0
+    dependencies:
+    - name: com.unity.profiling.core
+      version: 1.0.2
+    matchType: 2
+  - name: com.unity.addressables
+    version: 1.21.20
+    dependencies:
+    - name: com.unity.scriptablebuildpipeline
+      version: 1.21.22
+    - name: com.unity.modules.assetbundle
+      version: 1.0.0
+    - name: com.unity.modules.imageconversion
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestassetbundle
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.ads.ios-support
+    version: 1.2.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.connect.share
+    version: 4.2.3
+    dependencies:
+    - name: com.unity.editorcoroutines
+      version: 1.0.0
+    - name: com.unity.settings-manager
+      version: 1.0.2
+    matchType: 2
+  - name: com.unity.device-simulator.devices
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.entities.graphics
+    version: 1.0.16
+    dependencies:
+    - name: com.unity.entities
+      version: 1.0.16
+    - name: com.unity.modules.particlesystem
+      version: 1.0.0
+    - name: com.unity.render-pipelines.core
+      version: 14.0.7
+    matchType: 2
+  - name: com.unity.feature.2d
+    version: 2.0.0
+    dependencies:
+    - name: com.unity.2d.animation
+      version: default
+    - name: com.unity.2d.pixel-perfect
+      version: default
+    - name: com.unity.2d.psdimporter
+      version: default
+    - name: com.unity.2d.sprite
+      version: default
+    - name: com.unity.2d.spriteshape
+      version: default
+    - name: com.unity.2d.tilemap
+      version: default
+    - name: com.unity.2d.tilemap.extras
+      version: default
+    - name: com.unity.2d.aseprite
+      version: default
+    matchType: 2
+  - name: com.unity.feature.ar
+    version: 1.0.1
+    dependencies:
+    - name: com.unity.xr.arfoundation
+      version: default
+    - name: com.unity.xr.arkit
+      version: default
+    - name: com.unity.xr.arcore
+      version: default
+    - name: com.unity.xr.magicleap
+      version: default
+    - name: com.unity.xr.openxr
+      version: default
+    matchType: 2
+  - name: com.unity.feature.characters-animation
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.animation.rigging
+      version: default
+    - name: com.unity.timeline
+      version: default
+    - name: com.unity.cinemachine
+      version: default
+    - name: com.unity.formats.fbx
+      version: default
+    matchType: 2
+  - name: com.unity.feature.cinematic
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.timeline
+      version: default
+    - name: com.unity.sequences
+      version: default
+    - name: com.unity.formats.fbx
+      version: default
+    - name: com.unity.formats.alembic
+      version: default
+    - name: com.unity.cinemachine
+      version: default
+    - name: com.unity.recorder
+      version: default
+    matchType: 2
+  - name: com.unity.feature.development
+    version: 1.0.1
+    dependencies:
+    - name: com.unity.ide.visualstudio
+      version: default
+    - name: com.unity.ide.rider
+      version: default
+    - name: com.unity.ide.vscode
+      version: default
+    - name: com.unity.editorcoroutines
+      version: default
+    - name: com.unity.performance.profile-analyzer
+      version: default
+    - name: com.unity.test-framework
+      version: default
+    - name: com.unity.testtools.codecoverage
+      version: default
+    matchType: 2
+  - name: com.unity.feature.gameplay-storytelling
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.cinemachine
+      version: default
+    - name: com.unity.timeline
+      version: default
+    - name: com.unity.visualscripting
+      version: default
+    matchType: 2
+  - name: com.unity.feature.mobile
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.mobile.android-logcat
+      version: default
+    - name: com.unity.adaptiveperformance
+      version: default
+    - name: com.unity.mobile.notifications
+      version: default
+    matchType: 2
+  - name: com.unity.feature.vr
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.xr.oculus
+      version: default
+    - name: com.unity.xr.openxr
+      version: default
+    matchType: 2
+  - name: com.unity.feature.worldbuilding
+    version: 1.0.1
+    dependencies:
+    - name: com.unity.probuilder
+      version: default
+    - name: com.unity.polybrush
+      version: default
+    - name: com.unity.formats.fbx
+      version: default
+    - name: com.unity.terrain-tools
+      version: default
+    matchType: 2
+  - name: com.unity.formats.alembic
+    version: 2.4.0
+    dependencies:
+    - name: com.unity.timeline
+      version: 1.0.0
+    - name: com.unity.modules.unityanalytics
+      version: 1.0.0
+    - name: com.unity.modules.cloth
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.formats.fbx
+    version: 5.1.1
+    dependencies:
+    - name: com.unity.timeline
+      version: 1.7.1
+    - name: com.autodesk.fbx
+      version: 5.1.1
+    matchType: 2
+  - name: com.unity.ide.visualstudio
+    version: 2.0.22
+    dependencies:
+    - name: com.unity.test-framework
+      version: 1.1.9
+    matchType: 2
+  - name: com.unity.learn.iet-framework
+    version: 3.1.3
+    dependencies:
+    - name: com.unity.editorcoroutines
+      version: 1.0.0
+    - name: com.unity.settings-manager
+      version: 1.0.3
+    matchType: 2
+  - name: com.unity.learn.iet-framework.authoring
+    version: 1.2.2
+    dependencies:
+    - name: com.unity.learn.iet-framework
+      version: 3.1.3
+    matchType: 2
+  - name: com.unity.live-capture
+    version: 4.0.0
+    dependencies:
+    - name: com.unity.modules.imageconversion
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    - name: com.unity.modules.physics
+      version: 1.0.0
+    - name: com.unity.timeline
+      version: 1.7.0
+    - name: com.unity.ugui
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.memoryprofiler
+    version: 1.1.0
+    dependencies:
+    - name: com.unity.editorcoroutines
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.ml-agents
+    version: 2.0.1
+    dependencies:
+    - name: com.unity.barracuda
+      version: 2.0.0
+    - name: com.unity.modules.imageconversion
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.mobile.android-logcat
+    version: 1.4.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.mobile.notifications
+    version: 2.3.2
+    dependencies:
+    - name: com.unity.modules.androidjni
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.ai
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.animation
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.audio
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.cloth
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.physics
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.director
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.audio
+      version: 1.0.0
+    - name: com.unity.modules.animation
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.nvidia
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.physics
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.imageconversion
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.terrainphysics
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.physics
+      version: 1.0.0
+    - name: com.unity.modules.terrain
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.tilemap
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.physics2d
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.ui
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.ui
+      version: 1.0.0
+    - name: com.unity.modules.imgui
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.umbra
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.assetbundle
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.unitywebrequestaudio
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.modules.audio
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.modules.imageconversion
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.unitywebrequestwww
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestassetbundle
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestaudio
+      version: 1.0.0
+    - name: com.unity.modules.audio
+      version: 1.0.0
+    - name: com.unity.modules.assetbundle
+      version: 1.0.0
+    - name: com.unity.modules.imageconversion
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.vehicles
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.physics
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.video
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.audio
+      version: 1.0.0
+    - name: com.unity.modules.ui
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.vr
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    - name: com.unity.modules.physics
+      version: 1.0.0
+    - name: com.unity.modules.xr
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.modules.wind
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.modules.xr
+    version: 1.0.0
+    dependencies:
+    - name: com.unity.modules.physics
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    - name: com.unity.modules.subsystems
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.performance.profile-analyzer
+    version: 1.2.2
+    dependencies: []
+    matchType: 2
+  - name: com.unity.postprocessing
+    version: 3.4.0
+    dependencies:
+    - name: com.unity.modules.physics
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.profiling.systemmetrics.mali
+    version: 1.0.2
+    dependencies: []
+    matchType: 2
+  - name: com.unity.purchasing.udp
+    version: 2.2.5
+    dependencies: []
+    matchType: 2
+  - name: com.unity.remote-config
+    version: 4.0.0
+    dependencies:
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.0.2
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.remote-config-runtime
+      version: 4.0.1
+    matchType: 2
+  - name: com.unity.render-pipelines.universal
+    version: 14.0.8
+    dependencies:
+    - name: com.unity.mathematics
+      version: 1.2.1
+    - name: com.unity.burst
+      version: 1.8.4
+    - name: com.unity.render-pipelines.core
+      version: 14.0.8
+    - name: com.unity.shadergraph
+      version: 14.0.8
+    matchType: 2
+  - name: com.unity.rendering.denoising
+    version: 1.0.0
+    dependencies: []
+    matchType: 2
+  - name: com.unity.scriptablebuildpipeline
+    version: 2.1.2
+    dependencies: []
+    matchType: 2
+  - name: com.unity.scripting.python
+    version: 7.0.1
+    dependencies: []
+    matchType: 2
+  - name: com.unity.services.ccd.management
+    version: 3.0.0
+    dependencies:
+    - name: com.unity.services.core
+      version: 1.10.1
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestassetbundle
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestaudio
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequesttexture
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestwww
+      version: 1.0.0
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.2.1
+    matchType: 2
+  - name: com.unity.services.cloud-build
+    version: 1.0.5
+    dependencies:
+    - name: com.unity.services.core
+      version: 1.7.0
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.0.2
+    matchType: 2
+  - name: com.unity.services.cloud-diagnostics
+    version: 1.0.6
+    dependencies:
+    - name: com.unity.services.core
+      version: 1.8.1
+    matchType: 2
+  - name: com.unity.services.deployment
+    version: 1.3.0
+    dependencies:
+    - name: com.unity.services.deployment.api
+      version: 1.0.0
+    - name: com.unity.services.core
+      version: 1.12.0
+    matchType: 2
+  - name: com.unity.services.leaderboards
+    version: 2.0.0
+    dependencies:
+    - name: com.unity.services.authentication
+      version: 3.1.0
+    - name: com.unity.services.core
+      version: 1.12.0
+    matchType: 2
+  - name: com.unity.services.matchmaker
+    version: 1.1.2
+    dependencies:
+    - name: com.unity.services.core
+      version: 1.8.2
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestassetbundle
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestaudio
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequesttexture
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequestwww
+      version: 1.0.0
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.0.2
+    - name: com.unity.services.authentication
+      version: 2.0.0
+    matchType: 2
+  - name: com.unity.services.playeraccounts
+    version: 1.0.0-pre.2
+    dependencies:
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.0.2
+    - name: com.unity.services.core
+      version: 1.10.1
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    - name: com.unity.ugui
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.services.push-notifications
+    version: 4.0.0-pre.1
+    dependencies:
+    - name: com.unity.services.analytics
+      version: 5.0.0
+    - name: com.unity.services.core
+      version: 1.10.1
+    - name: com.unity.mobile.notifications
+      version: 2.2.0
+    matchType: 2
+  - name: com.unity.services.ugc.bridge
+    version: 3.0.0
+    dependencies:
+    - name: com.unity.services.core
+      version: 1.8.1
+    - name: com.unity.services.authentication
+      version: 3.0.0
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.0.2
+    matchType: 2
+  - name: com.unity.services.user-reporting
+    version: 2.0.9
+    dependencies:
+    - name: com.unity.modules.ui
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequesttexture
+      version: 1.0.0
+    - name: com.unity.modules.xr
+      version: 1.0.0
+    - name: com.unity.nuget.newtonsoft-json
+      version: 3.0.2
+    - name: com.unity.services.core
+      version: 1.12.0
+    - name: com.unity.modules.screencapture
+      version: 1.0.0
+    - name: com.unity.ugui
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.shadergraph
+    version: 14.0.8
+    dependencies:
+    - name: com.unity.render-pipelines.core
+      version: 14.0.8
+    - name: com.unity.searcher
+      version: 4.9.2
+    matchType: 2
+  - name: com.unity.sysroot.linux-x86_64
+    version: 2.0.6
+    dependencies:
+    - name: com.unity.sysroot
+      version: 2.0.7
+    matchType: 2
+  - name: com.unity.terrain-tools
+    version: 5.0.4
+    dependencies:
+    - name: com.unity.modules.terrain
+      version: 1.0.0
+    - name: com.unity.modules.terrainphysics
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.test-framework
+    version: 1.4.3
+    dependencies:
+    - name: com.unity.ext.nunit
+      version: 2.0.3
+    - name: com.unity.modules.imgui
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.testtools.codecoverage
+    version: 1.2.5
+    dependencies:
+    - name: com.unity.test-framework
+      version: 1.0.16
+    - name: com.unity.settings-manager
+      version: 1.0.1
+    matchType: 2
+  - name: com.unity.toolchain.linux-x86_64
+    version: 2.0.6
+    dependencies:
+    - name: com.unity.sysroot
+      version: 2.0.7
+    - name: com.unity.sysroot.linux-x86_64
+      version: 2.0.6
+    matchType: 2
+  - name: com.unity.toolchain.macos-x86_64-linux-x86_64
+    version: 2.0.6
+    dependencies:
+    - name: com.unity.sysroot
+      version: 2.0.7
+    - name: com.unity.sysroot.linux-x86_64
+      version: 2.0.6
+    matchType: 2
+  - name: com.unity.toolchain.win-x86_64-linux-x86_64
+    version: 2.0.6
+    dependencies:
+    - name: com.unity.sysroot
+      version: 2.0.7
+    - name: com.unity.sysroot.linux-x86_64
+      version: 2.0.6
+    matchType: 2
+  - name: com.unity.transport
+    version: 2.2.1
+    dependencies:
+    - name: com.unity.collections
+      version: 2.2.1
+    - name: com.unity.burst
+      version: 1.8.8
+    - name: com.unity.mathematics
+      version: 1.3.1
+    matchType: 2
+  - name: com.unity.visualscripting
+    version: 1.9.2
+    dependencies:
+    - name: com.unity.ugui
+      version: 1.0.0
+    - name: com.unity.modules.jsonserialize
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.xr.arfoundation
+    version: 5.1.3
+    dependencies:
+    - name: com.unity.editorcoroutines
+      version: 1.0.0
+    - name: com.unity.inputsystem
+      version: 1.3.0
+    - name: com.unity.xr.core-utils
+      version: 2.2.1
+    - name: com.unity.xr.management
+      version: 4.0.1
+    - name: com.unity.ugui
+      version: 1.0.0
+    - name: com.unity.mathematics
+      version: 1.2.5
+    - name: com.unity.modules.particlesystem
+      version: 1.0.0
+    - name: com.unity.modules.ui
+      version: 1.0.0
+    - name: com.unity.modules.unityanalytics
+      version: 1.0.0
+    - name: com.unity.modules.unitywebrequest
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.xr.hands
+    version: 1.4.0
+    dependencies:
+    - name: com.unity.inputsystem
+      version: 1.3.0
+    - name: com.unity.modules.xr
+      version: 1.0.0
+    - name: com.unity.xr.core-utils
+      version: 2.2.0
+    - name: com.unity.xr.management
+      version: 4.0.1
+    - name: com.unity.mathematics
+      version: 1.2.6
+    matchType: 2
+  - name: com.unity.xr.interaction.toolkit
+    version: 3.0.1
+    dependencies:
+    - name: com.unity.inputsystem
+      version: 1.8.1
+    - name: com.unity.mathematics
+      version: 1.2.6
+    - name: com.unity.ugui
+      version: 1.0.0
+    - name: com.unity.xr.core-utils
+      version: 2.2.3
+    - name: com.unity.modules.audio
+      version: 1.0.0
+    - name: com.unity.modules.imgui
+      version: 1.0.0
+    - name: com.unity.modules.physics
+      version: 1.0.0
+    - name: com.unity.modules.xr
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.xr.magicleap
+    version: 7.0.0
+    dependencies:
+    - name: com.unity.modules.screencapture
+      version: 1.0.0
+    - name: com.unity.modules.vr
+      version: 1.0.0
+    - name: com.unity.modules.xr
+      version: 1.0.0
+    - name: com.unity.ugui
+      version: 1.0.0
+    - name: com.unity.xr.arfoundation
+      version: 5.0.0-pre.12
+    - name: com.unity.xr.interactionsubsystems
+      version: 2.0.0
+    - name: com.unity.xr.management
+      version: 4.2.0
+    - name: com.unity.modules.androidjni
+      version: 1.0.0
+    matchType: 2
+  - name: com.unity.xr.management
+    version: 4.4.1
+    dependencies:
+    - name: com.unity.modules.subsystems
+      version: 1.0.0
+    - name: com.unity.modules.vr
+      version: 1.0.0
+    - name: com.unity.modules.xr
+      version: 1.0.0
+    - name: com.unity.xr.legacyinputhelpers
+      version: 2.1.7
+    matchType: 2
+  - name: com.unity.xr.oculus
+    version: 4.2.0
+    dependencies:
+    - name: com.unity.xr.management
+      version: 4.4.0
+    matchType: 2
+  - name: com.unity.xr.openxr
+    version: 1.10.0
+    dependencies:
+    - name: com.unity.xr.management
+      version: 4.4.0
+    - name: com.unity.xr.legacyinputhelpers
+      version: 2.1.2
+    - name: com.unity.inputsystem
+      version: 1.6.3
+    - name: com.unity.xr.core-utils
+      version: 2.1.1
+    matchType: 2
+  _gitPackages: []

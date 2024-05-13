@@ -1,0 +1,24 @@
+{
+    "name": "com.nomnom.lc-project-patcher.Bepinex.Editor",
+    "rootNamespace": "Nomnom.LethalCompanyProjectPatcher.BepInEx.Editor",
+    "references": [
+        "GUID:01fa4898ed3ed7141a89671b1a970967",
+        "GUID:419b14fad59f488e9e1a3c798cff9f89",
+        "GUID:e26183a8bbd0420e8175063b695e6355",
+        "GUID:d622a80a03e90ec48afe2a9c4bacce98",
+        "GUID:8ea34b3f918d0a14fbc5c4ee2d5cc887"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!NO_BEPINEX"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

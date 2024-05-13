@@ -1,0 +1,18 @@
+{
+    "name": "com.nomnom.lc-project-patcher.Bepinex.Runtime",
+    "rootNamespace": "Nomnom.LethalCompanyProjectPatcher.BepInEx",
+    "references": [
+        "GUID:8ea34b3f918d0a14fbc5c4ee2d5cc887"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!NO_BEPINEX"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 916d8141f5694455a1684411a2d0c2ac, type: 3}
+  m_Name: LethalCompany_AssetRipperSettings
+  m_EditorClassIdentifier: 
+  _folderMappings:
+  - key: AnimationClip
+    sourceName: AnimationClip
+    outputPath: Animation\AnimationClips
+    exclude: 0
+  - key: AnimatorController
+    sourceName: AnimatorController
+    outputPath: Animation\AnimatorControllers
+    exclude: 0
+  - key: AudioClip
+    sourceName: AudioClip
+    outputPath: Audio\AudioClips
+    exclude: 0
+  - key: AudioMixerController
+    sourceName: AudioMixerController
+    outputPath: Audio\AudioMixerControllers
+    exclude: 0
+  - key: Cubemap
+    sourceName: Cubemap
+    outputPath: Scenes\Cubemaps
+    exclude: 0
+  - key: Font
+    sourceName: Font
+    outputPath: Fonts\TextMeshPro
+    exclude: 0
+  - key: LightingSettings
+    sourceName: LightingSettings
+    outputPath: LightingSettings
+    exclude: 0
+  - key: Material
+    sourceName: Material
+    outputPath: Materials
+    exclude: 0
+  - key: Mesh
+    sourceName: Mesh
+    outputPath: Meshes
+    exclude: 0
+  - key: MonoBehaviour
+    sourceName: MonoBehaviour
+    outputPath: ScriptableObjects
+    exclude: 0
+  - key: NavMeshData
+    sourceName: NavMeshData
+    outputPath: Scenes\NavMeshData
+    exclude: 0
+  - key: PhysicsMaterial
+    sourceName: PhysicsMaterial
+    outputPath: PhysicsMaterials
+    exclude: 0
+  - key: PrefabInstance
+    sourceName: PrefabInstance
+    outputPath: Prefabs
+    exclude: 0
+  - key: RenderTexture
+    sourceName: RenderTexture
+    outputPath: Textures\RenderTextures
+    exclude: 0
+  - key: Resources
+    sourceName: Resources
+    outputPath: Resources
+    exclude: 0
+  - key: Scenes
+    sourceName: Scenes
+    outputPath: Scenes
+    exclude: 0
+  - key: Scripts
+    sourceName: Scripts
+    outputPath: Scripts
+    exclude: 0
+  - key: Settings
+    sourceName: Settings
+    outputPath: Settings
+    exclude: 0
+  - key: Shader
+    sourceName: Shader
+    outputPath: Shaders
+    exclude: 1
+  - key: Sprite
+    sourceName: Sprite
+    outputPath: Textures\Sprites
+    exclude: 0
+  - key: TerrainData
+    sourceName: TerrainData
+    outputPath: Scenes\TerrainData
+    exclude: 0
+  - key: TerrainLayer
+    sourceName: TerrainLayer
+    outputPath: Textures\TerrainLayers
+    exclude: 0
+  - key: Texture2D
+    sourceName: Texture2D
+    outputPath: Textures\Texture2Ds
+    exclude: 0
+  - key: Texture3D
+    sourceName: Texture3D
+    outputPath: Textures\Texture3Ds
+    exclude: 0
+  - key: VideoClip
+    sourceName: VideoClip
+    outputPath: Videos
+    exclude: 0
+  - key: Plugins
+    sourceName: Plugins
+    outputPath: Plugins
+    exclude: 0
+  - key: Editor
+    sourceName: Editor
+    outputPath: Editor
+    exclude: 0
+  _foldersToCopy:
+  - AnimationClip
+  - AnimatorController
+  - AudioClip
+  - AudioMixerController
+  - Avatar
+  - Cubemap
+  - Editor
+  - Font
+  - LightingSettings
+  - Material
+  - Mesh
+  - MonoBehaviour
+  - NavMeshData
+  - PhysicMaterial
+  - PrefabInstance
+  - RenderTexture
+  - Resources
+  - Scenes
+  - Shader
+  - Sprite
+  - StreamingAssets
+  - TerrainData
+  - TerrainLayer
+  - Texture2D
+  - Texture3D
+  - VideoClip
+  - VisualEffectAsset
+  - Scripts\Assembly-CSharp
+  _filesToExcludeFromCopy: []
+  _foldersToExcludeFromRead:
+  - Scripts\Unity.Burst
+  - Scripts\Unity.Burst.Unsafe
+  - Scripts\Unity.Mathematics
+  - Scripts\Unity.Jobs
+  _projectSettingFilesToCopy:
+  - NavMeshAreas.asset
+  - TagManager.asset
+  - TimeManager.asset
+  - DynamicsManager.asset
+  - QualitySettings.asset
+  _configurationData:
+    Import:
+      scriptContentLevel: 2
+      streamingAssetsMode: 1
+      defaultVersion:
+        major: 0
+        minor: 0
+        build: 0
+        type: 0
+        typeNumber: 0
+      bundledAssetsExportMode: 0
+    Processing:
+      enablePrefabOutlining: 0
+      enableStaticMeshSeparation: 0
+      enableAssetDeduplication: 0
+    Export:
+      audioExportFormat: 2
+      imageExportFormat: 4
+      meshExportFormat: 0
+      scriptExportMode: 0
+      scriptLanguageVersion: -1
+      shaderExportMode: 0
+      spriteExportMode: 0
+      terrainExportMode: 0
+      textExportMode: 2
+      saveSettingsToDisk: 0
