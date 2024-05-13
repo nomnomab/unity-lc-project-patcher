@@ -119,7 +119,7 @@ Estimated patch durations:
 - Fresh patch: 5 - 10 minutes
 - Already patched: 8 - 15 minutes
 
-These can vary wildly depening on system speed and project size.
+These can vary wildly depending on system speed and project size.
 
 ## FAQ
 
