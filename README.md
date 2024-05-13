@@ -65,6 +65,13 @@ These prerequisites may or may not be already included in your Unity version:
 <!-- Installation -->
 ## Installation
 
+### Unity Project
+
+- Requires [Unity 2022.3.9f1](https://unity.com/releases/editor/whats-new/2022.3.9)
+- Unity HDRP pipeline (High Definition 3D)
+
+Create a new Unity project with the above requirements before getting started.
+
 > [!IMPORTANT]  
 > These options require [git](https://git-scm.com/download/win) to be installed!
 
