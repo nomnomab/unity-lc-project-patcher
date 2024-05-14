@@ -124,6 +124,9 @@ Estimated patch durations:
 
 These can vary wildly depending on system speed and project size.
 
+> [!IMPORTANT]  
+> In the HDRP wizard it may say that the Quality asset isn't assigned. It is lying, just ignore it.
+
 ## Plugin Settings
 
 > [!NOTE]  
