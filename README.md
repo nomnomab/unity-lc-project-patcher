@@ -122,6 +122,19 @@ Estimated patch durations:
 
 These can vary wildly depending on system speed and project size.
 
+## Plugin Settings
+
+> [!NOTE]  
+> Can be made via `Create > Unity Project Patcher > Lethal Company Plugin Settings`
+> 
+> One will be made for you upon entering the game if one doesn't exist.
+
+![](Assets~/LethalCompanyPluginSettings.png)
+
+There are various provided patches for usage via a `LethalCompanyPluginSettings` asset. 
+
+These can be useful for debugging or quickly entering the game.
+
 ## FAQ
 
 The core project's FAQ can be found here: https://github.com/nomnomab/unity-project-patcher#faq
