@@ -96,7 +96,9 @@ Install with the manifest.json:
 
 ### Installing the BepInEx Wrapper
 
-If you require BepInEx usage, then follow the instructions at https://github.com/nomnomab/unity-project-patcher-bepinex
+Open the tool window `Tools > Unity Project Patcher > Open Window` and press the `Install BepInEx` button.
+
+Otherwise, follow the steps at https://github.com/nomnomab/unity-project-patcher-bepinex
 
 #### Disabling BepInEx Usage
 
