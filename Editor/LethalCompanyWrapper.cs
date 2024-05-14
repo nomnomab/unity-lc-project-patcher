@@ -4,7 +4,7 @@ using Nomnom.UnityProjectPatcher.Editor.Steps;
 using UnityEditor;
 
 namespace Nomnom.LethalCompanyProjectPatcher.Editor {
-    [UPPatcher]
+    [UPPatcher("com.nomnom.unity-lc-project-patcher")]
     public static class LethalCompanyWrapper {
         public static void GetSteps(StepPipeline stepPipeline) {
             stepPipeline.SetInputSystem(InputSystemType.InputSystem_New);
