@@ -1,4 +1,8 @@
-﻿# 1.0.2
+﻿# 1.0.3
+
+- Added asset bundles git package to git packages
+
+# 1.0.2
 
 - Applied new package name param to `UPPatcherAttribute`
 

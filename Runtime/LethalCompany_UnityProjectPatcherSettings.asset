@@ -1316,4 +1316,6 @@ MonoBehaviour:
     - name: com.unity.xr.core-utils
       version: 2.1.1
     matchType: 2
-  _gitPackages: []
+  _gitPackages:
+  - name: https://github.com/Unity-Technologies/AssetBundles-Browser.git
+    version: 
