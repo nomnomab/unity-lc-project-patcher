@@ -1,4 +1,8 @@
-﻿# 1.0.4
+﻿# 1.0.5
+
+- Water shader replacement bundled
+
+# 1.0.4
 
 - Removed `ENABLE_BEPINEX` flag for runtime scriptable objects so they aren't broken when viewed
 
