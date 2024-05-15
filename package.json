@@ -1,6 +1,6 @@
 {
   "name": "com.nomnom.unity-lc-project-patcher",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "displayName": "Lethal Company Project Patcher",
   "description": "A game wrapper that generates a Unity project from Lethal Company's build that can be playable in-editor",
   "unity": "2022.3",

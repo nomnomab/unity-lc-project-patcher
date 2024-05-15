@@ -1,4 +1,8 @@
-﻿# 1.0.5
+﻿# 1.0.6
+
+- Removed seemingly unneeded animator conversion for `eclipse` to `eclipsed`
+
+# 1.0.5
 
 - Water shader replacement bundled
 

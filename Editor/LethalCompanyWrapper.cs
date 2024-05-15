@@ -29,11 +29,11 @@ namespace Nomnom.LethalCompanyProjectPatcher.Editor {
             stepPipeline.SetGameViewResolution("16:9");
             stepPipeline.OpenSceneAtEnd("InitSceneLaunchOptions");
             stepPipeline.InsertLast(new FixES3Step());
-            stepPipeline.InsertAfter<FixES3Step>(new RenameAnimatorParametersStep(
-                    new RenameAnimatorParametersStep.Replacement("SunAnimContainer", ("eclipse", "eclipsed")),
-                    new RenameAnimatorParametersStep.Replacement("SunAnimContainer 1", ("eclipse", "eclipsed"))
-                )
-            );
+            // stepPipeline.InsertAfter<FixES3Step>(new RenameAnimatorParametersStep(
+            //         new RenameAnimatorParametersStep.Replacement("SunAnimContainer", ("eclipse", "eclipsed")),
+            //         new RenameAnimatorParametersStep.Replacement("SunAnimContainer 1", ("eclipse", "eclipsed"))
+            //     )
+            // );
         }
     }
 }
