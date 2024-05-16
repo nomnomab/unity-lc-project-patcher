@@ -40,7 +40,9 @@ namespace Nomnom.LethalCompanyProjectPatcher.BepInEx {
             public bool autoLoadMoonEnabled;
             public string levelSceneName;
             
+#if ENABLE_BEPINEX
             [TypeObjectField("SelectableLevel, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null")]
+#endif
             public ScriptableObject selectableLevel;
         }
 

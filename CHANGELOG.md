@@ -1,4 +1,10 @@
-﻿# 1.0.6
+﻿# 1.0.7
+
+- Fixed attribute error when `com.nomnom.unity-project-patcher-bepinex` wasn't installed
+- Added step to move dungen scripts out of their folder
+- Added `https://github.com/Unity-Technologies/AssetBundles-Browser.git` to git dependencies for `UPPatcherSettings`
+
+# 1.0.6
 
 - Removed seemingly unneeded animator conversion for `eclipse` to `eclipsed`
 

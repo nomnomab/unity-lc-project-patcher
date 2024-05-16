@@ -19,6 +19,11 @@ namespace Nomnom.LethalCompanyProjectPatcher.Editor {
             stepPipeline.InsertBefore<CopyAssetRipperExportToProjectStep>(
                 new MakeProxyScriptsStep(new MakeProxyScriptsStep.Proxy("ES3Defaults", "LethalCompany"))
             );
+            stepPipeline.InsertAfter<AssetRipperStep>(
+                new MoveFilesInExportStep(
+                    (Path.Combine("Scripts", "Assembly-CSharp", "DunGen", "Editor", "*"), Path.Combine("Scripts", "Assembly-CSharp", "DunGen"))
+                )
+            );
             stepPipeline.InsertAfter<CopyAssetRipperExportToProjectStep>(
                 // https://github.com/flamacore/UnityHDRPSimpleWater/tree/master
                 new MigrateProjectMaterialsStep(

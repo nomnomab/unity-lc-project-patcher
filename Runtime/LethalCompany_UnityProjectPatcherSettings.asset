@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LethalCompany_UnityProjectPatcherSettings
   m_EditorClassIdentifier: 
   _gameName: Lethal Company
+  _customGameName: 
   _gameVersion: 2022.3.9.15351836
   _pipelineType: 2
   _dllsToCopy:
@@ -1317,5 +1318,5 @@ MonoBehaviour:
       version: 2.1.1
     matchType: 2
   _gitPackages:
-  - name: https://github.com/Unity-Technologies/AssetBundles-Browser.git
-    version: 
+  - name: com.unity.assetbundlebrowser
+    version: https://github.com/Unity-Technologies/AssetBundles-Browser.git
