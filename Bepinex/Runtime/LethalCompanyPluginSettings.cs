@@ -51,5 +51,30 @@ namespace Nomnom.LethalCompanyProjectPatcher.BepInEx {
             IntoMainMenu,
             IntoGame
         }
+        
+#if UNITY_EDITOR
+        [UnityEditor.MenuItem("Tools/Unity Project Patcher/Configs/" + nameof(LethalCompanyPluginSettings))]
+        private static void OpenUPPatcherUserSettings() {
+            var config = GetSettings();
+            UnityEditor.EditorUtility.FocusProjectWindow();
+            UnityEditor.Selection.activeObject = config;
+            UnityEditor.EditorGUIUtility.PingObject(config);
+        }
+
+        private static LethalCompanyPluginSettings GetSettings() {
+            var assets = UnityEditor.AssetDatabase.FindAssets($"t:{nameof(LethalCompanyPluginSettings)}");
+            if (assets.Length == 0) {
+                var settings = ScriptableObject.CreateInstance<LethalCompanyPluginSettings>();
+                UnityEditor.AssetDatabase.CreateAsset(settings, "Assets/LethalCompanyPluginSettings.asset");
+                UnityEditor.AssetDatabase.SaveAssets();
+                UnityEditor.AssetDatabase.Refresh();
+                Debug.LogWarning($"Created {nameof(LethalCompanyPluginSettings)} asset since it was missing");
+                assets = UnityEditor.AssetDatabase.FindAssets($"t:{nameof(LethalCompanyPluginSettings)}");
+            }
+
+            var assetPath = UnityEditor.AssetDatabase.GUIDToAssetPath(assets[0]);
+            return UnityEditor.AssetDatabase.LoadAssetAtPath<LethalCompanyPluginSettings>(assetPath);
+        }
+#endif
     }
 }

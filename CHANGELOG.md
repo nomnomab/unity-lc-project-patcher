@@ -1,4 +1,8 @@
-﻿# 1.0.7
+﻿# 1.0.8
+
+- Added config to `Tools > Unity Project Patcher > Configs`
+
+# 1.0.7
 
 - Fixed attribute error when `com.nomnom.unity-project-patcher-bepinex` wasn't installed
 - Added step to move dungen scripts out of their folder
