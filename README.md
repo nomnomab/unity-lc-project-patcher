@@ -144,6 +144,10 @@ These can be useful for debugging or quickly entering the game.
 
 The core project's FAQ can be found here: https://github.com/nomnomab/unity-project-patcher#faq
 
+#### Q: The patcher keeps crashing due to texture/GPU/driver issues.
+
+Try switching to DX11 with these steps: https://docs.unity3d.com/Manual/UsingDX11GL3Features.html
+
 <br/>
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B6R2Z9U)
